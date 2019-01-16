@@ -1,0 +1,68 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "haushalt picker",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "MyHaushaltIsIntent",
+          "slots": [
+            {
+              "name": "Haushalt",
+              "type": "LIST_OF_HAUSHALT"
+            }
+          ],
+          "samples": [
+            " mein Haushalt ist {Haushalt}",
+            " ich bin {Haushalt}",
+            " {Haushalt}"
+          ]
+        },
+        {
+          "name": "WhatsMyHaushaltIntent",
+          "slots": [],
+          "samples": [
+            "Was ist mein Haushalt."
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "name": "LIST_OF_HAUSHALT",
+          "values": [
+            {
+              "name": {
+                "value": "single"
+              }
+            },
+            {
+              "name": {
+                "value": "paar"
+              }
+            },
+            {
+              "name": {
+                "value": "familie"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
