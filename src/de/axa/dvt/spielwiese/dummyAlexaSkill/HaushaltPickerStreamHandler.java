@@ -1,15 +1,15 @@
-package de.axa.dvt.spielwiese.caseOne;
+package de.axa.dvt.spielwiese.dummyAlexaSkill;
 
 import com.amazon.ask.Skill;
 import com.amazon.ask.SkillStreamHandler;
 import com.amazon.ask.Skills;
-import de.axa.dvt.spielwiese.caseOne.handlers.FallbackIntentHandler;
-import de.axa.dvt.spielwiese.caseOne.handlers.HelpIntentHandler;
-import de.axa.dvt.spielwiese.caseOne.handlers.LaunchRequestHandler;
-import de.axa.dvt.spielwiese.caseOne.handlers.SessionEndedRequestHandler;
-import de.axa.dvt.spielwiese.caseOne.handlers.WhatsMyHaushaltIntentHandler;
-import de.axa.dvt.spielwiese.caseOne.handlers.CancelandStopIntentHandler;
-import de.axa.dvt.spielwiese.caseOne.handlers.MyHaushaltIsIntentHandler;
+import de.axa.dvt.spielwiese.dummyAlexaSkill.handlers.FallbackIntentHandler;
+import de.axa.dvt.spielwiese.dummyAlexaSkill.handlers.HelpIntentHandler;
+import de.axa.dvt.spielwiese.dummyAlexaSkill.handlers.LaunchRequestHandler;
+import de.axa.dvt.spielwiese.dummyAlexaSkill.handlers.SessionEndedRequestHandler;
+import de.axa.dvt.spielwiese.dummyAlexaSkill.handlers.WhatsMyHaushaltIntentHandler;
+import de.axa.dvt.spielwiese.dummyAlexaSkill.handlers.CancelandStopIntentHandler;
+import de.axa.dvt.spielwiese.dummyAlexaSkill.handlers.MyHaushaltIsIntentHandler;
 
 public class HaushaltPickerStreamHandler extends SkillStreamHandler {
 

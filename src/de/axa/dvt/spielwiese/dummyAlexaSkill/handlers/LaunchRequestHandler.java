@@ -1,4 +1,4 @@
-package de.axa.dvt.spielwiese.caseOne.handlers;
+package de.axa.dvt.spielwiese.dummyAlexaSkill.handlers;
 
 import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import com.amazon.ask.dispatcher.request.handler.RequestHandler;

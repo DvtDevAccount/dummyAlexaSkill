@@ -1,4 +1,4 @@
-package de.axa.dvt.spielwiese.caseOne.handlers;
+package de.axa.dvt.spielwiese.dummyAlexaSkill.handlers;
 
 import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import com.amazon.ask.dispatcher.request.handler.RequestHandler;
@@ -12,9 +12,9 @@ import java.util.Collections;
 import java.util.Map;
 import java.util.Optional;
 
-import static de.axa.dvt.spielwiese.caseOne.handlers.WhatsMyHaushaltIntentHandler.*;
-import static de.axa.dvt.spielwiese.caseOne.handlers.WhatsMyHaushaltIntentHandler.HAUSHALT_KEY;
-import static de.axa.dvt.spielwiese.caseOne.handlers.WhatsMyHaushaltIntentHandler.HAUSHALT_SLOT;
+import static de.axa.dvt.spielwiese.dummyAlexaSkill.handlers.WhatsMyHaushaltIntentHandler.*;
+import static de.axa.dvt.spielwiese.dummyAlexaSkill.handlers.WhatsMyHaushaltIntentHandler.HAUSHALT_KEY;
+import static de.axa.dvt.spielwiese.dummyAlexaSkill.handlers.WhatsMyHaushaltIntentHandler.HAUSHALT_SLOT;
 import static com.amazon.ask.request.Predicates.intentName;
 
 public class MyHaushaltIsIntentHandler implements RequestHandler {
